@@ -1,0 +1,1 @@
+alert('Ejemplo de script en html.');

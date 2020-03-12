@@ -1,0 +1,17 @@
+#button {
+padding: 0;
+}
+
+#button li {
+display: inline;
+}
+
+#button li a {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 11px;
+text-decoration: none;
+float: left;
+padding: 10px;
+background-color: #33b6df;
+color: #fff;
+}
