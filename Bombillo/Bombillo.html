@@ -1,0 +1,20 @@
+<!--En este código de ejemplo se enciende un bombillo 
+y se apaga mediante botones, se adjunta las imágenes y 
+el código para ver su funcionamiento-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagenes</title>
+</head>
+<body>
+    <h2>Que puedo hacer con Javascript?</h2>
+    <p>Javascript puede cambiar los valores de los atributos HTML</p>
+    <p>En este caso, Javascript cambia el valor del atributo src (fuente) de una imagen. </p>
+    <button onclick="document.getElementById('myImage').src='image/ligth1.png'">Enciende la luz</button>
+    <img id="myImage" src="image/ligth0.png" style="width: 100px;">
+    <button onclick="document.getElementById('myImage').src='image/ligth0.png'">Apaga  la luz</button>
+
+</body>
+</html>
