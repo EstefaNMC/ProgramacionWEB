@@ -1,0 +1,34 @@
+body{
+
+    background-color:rgb(65, 201, 47);
+    
+}
+h1{
+
+    font: oblique bold 450% cursive;
+}
+
+input[type=button] {
+    background-color: rgb(206, 36, 183);
+  border: none;
+  color: rgb(3, 3, 3);
+  padding: 10px 28px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size:20px;
+  text-align: center;
+  
+
+  width: 800px;
+  height:50px;
+  }
+h2{
+    text-align: right;
+}
+p{
+
+    font: oblique  200% cursive;
+
+}
+
