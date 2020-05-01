@@ -1,4 +1,6 @@
 /**Realizado por Estefania Natalie Moreno Corrales */
+/**PARA VISUALIZAR EL ARCHIVO DE LAS CONSULTAS ABRA AQUI:
+    https://github.com/EstefaNMC/ProgramacionWEB/tree/master/Parcial*/
 
 function validar(){
 
