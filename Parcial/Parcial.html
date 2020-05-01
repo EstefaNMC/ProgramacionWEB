@@ -1,0 +1,79 @@
+<!--Realizado por Estefania Natalie Moreno Corrales-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script>
+        
+    </script>
+</head>
+<body>
+   
+    <h1>FORMULARIO</h1>
+    <form method="POST" class="form-register"  name="form-register"   onsubmit="return validar()"> 
+        <h2 class="form-titulo">Registrate</h2>
+
+        <div id="HTMLtoPDF">
+        <div class="contenedor-inputs "></div>
+
+        <input name="uploadedfile" id="file"   type="file"  class="input-100"  /> 
+        <input type="date" id="fecha"  name="fecha"  class="input-100"  > 
+        
+        <input type="text" id="perfil"  name="perfil" placeholder="Perfil profesional" class="input-100"  onkeyup="javascript:this.value=this.value.toLowerCase();"> 
+        <input type="text " id="nombre"  name="nombre" placeholder="Nombres" class="input-48" onkeyup="javascript:this.value=this.value.toUpperCase(); " >
+        <input type="text"  id="apellidos"  name="apellidos" placeholder="Apellidos" class="input-48" onkeyup="javascript:this.value=this.value.toUpperCase();  " >
+        <input type="email" id="correo"  name="correo" placeholder="Correo Electronico " class="input-100" >
+        <input type="text" id="telefono"  name="telefono" placeholder="Telefono" class="input-100" >
+        <select name="genero"  class="input-100" id="genero"> 
+            <option value="">- Selecciona un opción -</option>
+            <option value="Femenio">Femnino</option>
+            <option value="Masculino">Masculino</option>
+        </select>
+         
+          <br>
+        <select class="input-50"  class="input-48"   id="city" name="" required>
+            <option value="Bogota">Bogota</option>
+            <option value="Medellin">Medellin</option>
+            <option value="Cali">Cali</option>
+        </select>            
+         <select class="input-50" name="street"  class="" id="type-street" required>
+            <option value="Autopista">Autopista</option>
+            <option value="Avenida">Avenida</option>
+            <option value="Avenida Calle">Avenida Calle</option>
+            <option value="Avenida Carrera">Avenida Carrera</option>
+            <option value="Calle">Calle</option>
+            <option value="Carrera">Carrera</option>
+             <option value="Circular">Circular</option>
+            <option value="Diagonal">Diagonal</option>
+            <option value="Manzana">Manzana</option>
+            <option value="Transversal">Transversal</option>
+            <option value="Via">Via</option>
+         </select>
+
+
+
+
+    
+        <input type="text" class="input-50" name="main-street" id="main-street" value="" placeholder="calle principal" required>
+        # <input type="text" class="input-50" name="main-street" id="main-street" value="" placeholder="calle secundaria" required>
+        - <input type="text" class="input-50" name="main-street" id="main-street" value="" placeholder="final" required>
+        
+        
+
+        
+       <input type="button" value="Imprimir" class="btn-enviar"  onclick="HTMLtoPDF()" />
+       
+       
+  
+    </form>
+</div>
+ 
+    <script src="js/script.js"></script>
+       <script src="js/jspdf.js"></script>
+       <script src="js/jquery-2.1.3.js"></script>
+       <script src="js/pdfFromHTML.js"></script>
+</body>
+</html>
